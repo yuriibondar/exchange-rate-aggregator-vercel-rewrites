@@ -1,7 +1,7 @@
 {
   "rewrites": [
-    {"source": "/api/", "destination": "https://exchange-rate-aggregator-server.vercel.app/"},
-    {"source": "/api/:match*", "destination": "https://exchange-rate-aggregator-server.vercel.app/:match*"},
+    {"source": "/api/kit", "destination": "https://exchange-rate-aggregator-server.vercel.app/api/kit"},
+    {"source": "/api/", "destination": "https://exchange-rate-aggregator-server.vercel.app/api"},
     {"source": "/", "destination": "https://exchange-rate-aggregator-client.vercel.app/"},
     {"source": "/:match*", "destination": "https://exchange-rate-aggregator-client.vercel.app/:match*"}
   ]
