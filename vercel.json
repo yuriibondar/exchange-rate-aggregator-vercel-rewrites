@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {"source": "/api/", "destination": "https://exchange-rate-aggregator-server.vercel.app/"},
+    {"source": "/api/:match*", "destination": "https://exchange-rate-aggregator-server.vercel.app/:match*"},
+    {"source": "/", "destination": "https://exchange-rate-aggregator-client.vercel.app/"},
+    {"source": "/:match*", "destination": "https://exchange-rate-aggregator-client.vercel.app/:match*"}
+  ]
+}
